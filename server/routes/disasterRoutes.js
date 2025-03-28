@@ -6,3 +6,4 @@ router.get("/", disasterController.getDisasterData);
 router.post("/predict", disasterController.predictDisaster);
 
 module.exports = router;
+
